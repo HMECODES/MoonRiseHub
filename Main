@@ -1,0 +1,64 @@
+--[[
+--Games Supported--
+Arsenal
+Bedwars
+
+Official Website: gethacky.online
+
+Copyright © 2022 Hacky 
+Copyright © 2022 Hacky 
+Copyright © 2022 Hacky 
+]]
+Secret_Key = "" --Get it at gethacky.online/key
+
+
+if Secret_Key == loadstring(game:HttpGet("https://paste.sh/cjop4Dhj#hSigzel7LZgFg7LYA29VHLvJ", true))() then
+if game.PlaceId == 6872265039 or 6872274481 then
+local config = {
+   ["HeaderWidth"] = 250,
+   ["AccentColor"] = Color3.new(0.6,0,0)
+}
+local gui = loadstring(game:HttpGet("https://gitlab.com/0x45.xyz/droplib/-/raw/master/drop-minified.lua"))():Init(config,game.CoreGui)
+local Main = gui:CreateCategory("Main")
+
+Main:CreateSlider("WalkSpeed(Bedwars Based)", function(ws) game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = ws end,0,30.9081084029834929865294243,nil,true,game.Players.LocalPlayer.Character.Humanoid.WalkSpeed)
+Main:CreateButton("Hook AntiCheat", function() loadstring(game:HttpGet("https://pastebin.com/raw/ahWWpUmq", true))() end)
+Main:CreateButton("Vape Lite", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))() end)
+Main:CreateButton("Vape v4", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeLiteForRoblox/main/NewMainScript.lua", true))() end)
+
+
+
+
+
+
+
+
+
+
+
+gui:CreateCategory("~~Destroy Gui~~"):CreateButton("~CLICK ME!~",function() gui:CleanUp() end)
+elseif game.PlaceId == 286090429 then
+    local config = {
+   ["HeaderWidth"] = 250,
+   ["AccentColor"] = Color3.new(0.6,0,0)
+}
+local gui = loadstring(game:HttpGet("https://gitlab.com/0x45.xyz/droplib/-/raw/master/drop-minified.lua"))():Init(config,game.CoreGui)
+local Main = gui:CreateCategory("Main")
+
+Main:CreateSlider("WalkSpeed(Arsenal Based)", function(ws) game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = ws end,0,50,nil,true,game.Players.LocalPlayer.Character.Humanoid.WalkSpeed)
+Main:CreateButton("Hook AntiCheat", function() loadstring(game:HttpGet("https://pastebin.com/raw/ahWWpUmq", true))() end)
+Main:CreateButton("Dark Hub", function() loadstring(game:HttpGet(("https://darkhub.xyz/remote-script.lua"), true))() end)
+Main:CreateButton("Owl Hub", function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))(); end)
+
+
+
+
+
+
+
+
+
+
+gui:CreateCategory("~~Destroy Gui~~"):CreateButton("~CLICK ME!~",function() gui:CleanUp() end)
+end
+--Copy Cat = pussy
